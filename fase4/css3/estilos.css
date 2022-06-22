@@ -1,0 +1,21 @@
+header{
+    background: #F4F3F3;
+}
+nav{
+    background: #DFDFDF;
+}
+section{
+    background: #BFD8D5;
+    grid-column: 1/4;
+}
+aside{
+    background: #B1BED5;
+    grid-column: 4/5;
+}
+footer{
+    background: #BFD8D8;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
